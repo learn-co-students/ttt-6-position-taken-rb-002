@@ -1,0 +1,12 @@
+/Users/duong/.rvm/rubies/ruby-2.2.1/bin/ruby -r ./siteconf20151224-53159-j8h1v.rb extconf.rb
+
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+make "DESTDIR="
+echo "This is a dummy extension"
+This is a dummy extension
+
+make "DESTDIR=" install
+echo "This is a dummy extension"
+This is a dummy extension
