@@ -34,13 +34,13 @@ describe '#position_taken? in lib/position_taken.rb' do
     expect(position_taken?(board, position)).to be(false)
   end
 
-  #it 'returns true if the board has a value of "X" or "O" in the position' do
-   # board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
+  it 'returns true if the board has a value of "X" or "O" in the position' do
+    board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
 
-#    position = 0
- #   expect(position_taken?(board, position)).to be(true)
+    position = 0
+    expect(position_taken?(board, position)).to be(true)
 
-  #  position = 8
-   # expect(position_taken?(board, position)).to be(true)
-  #end
+    position = 8
+    expect(position_taken?(board, position)).to be(true)
+  end
 end
